@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Sb.Common.Wrappers
+namespace Sb.Common.Abstractions
 {
-    public class FileWrapper : IFile
+    public class FileProvider : IFile
     {
         public void AppendAllLines(string path, IEnumerable<string> contents)
         {

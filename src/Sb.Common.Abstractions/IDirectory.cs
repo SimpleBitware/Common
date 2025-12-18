@@ -2,7 +2,7 @@
 using System;
 using System.IO;
 
-namespace Sb.Common.Wrappers
+namespace Sb.Common.Abstractions
 {
     public interface IDirectory
     {

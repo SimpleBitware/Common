@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Sb.Common.Wrappers
+namespace Sb.Common.Abstractions
 {
     public interface IFile
     {

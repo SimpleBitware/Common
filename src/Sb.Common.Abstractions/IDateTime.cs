@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sb.Common.Wrappers
+namespace Sb.Common.Abstractions
 {
     public interface IDateTime
     {

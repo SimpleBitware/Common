@@ -2,9 +2,9 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Sb.Common.Wrappers
+namespace Sb.Common.Abstractions
 {
-    public class TaskWrapper : ITask
+    public class TaskProvider : ITask
     {
         public Task Delay(int millisecondsDelay)
         {

@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Sb.Common.Wrappers
+namespace Sb.Common.Abstractions
 {
-    public class DateTimeWrapper : IDateTime
+    public class DateTimeProvider : IDateTime
     {
         public DateTime Now => DateTime.Now;
 

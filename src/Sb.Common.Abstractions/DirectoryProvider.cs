@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace Sb.Common.Wrappers
+namespace Sb.Common.Abstractions
 {
-    public class DirectoryWrapper : IDirectory
+    public class DirectoryProvider : IDirectory
     {
         public DirectoryInfo CreateDirectory(string path)
         {

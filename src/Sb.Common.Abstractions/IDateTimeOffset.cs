@@ -1,8 +1,8 @@
 using System;
 
-namespace Sb.Common.Wrappers
+namespace Sb.Common.Abstractions
 {
-    public interface IDateTimeOffsetWrapper
+    public interface IDateTimeOffset
     {
         public DateTimeOffset Now { get; }
         public DateTimeOffset UtcNow { get; }
