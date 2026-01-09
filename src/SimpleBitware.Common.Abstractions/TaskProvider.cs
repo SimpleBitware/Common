@@ -1,0 +1,28 @@
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace SimpleBitware.Common.Abstractions;
+
+public class TaskProvider : ITask
+{
+    public Task Delay(int millisecondsDelay)
+    {
+        return Task.Delay(millisecondsDelay);
+    }
+
+    public Task Delay(int millisecondsDelay, CancellationToken cancellationToken)
+    {
+        return Task.Delay(millisecondsDelay, cancellationToken);
+    }
+
+    public Task Delay(TimeSpan delay)
+    {
+        return Task.Delay(delay);
+    }
+
+    public Task Delay(TimeSpan delay, CancellationToken cancellationToken)
+    {
+        return Task.Delay(delay, cancellationToken);
+    }
+}

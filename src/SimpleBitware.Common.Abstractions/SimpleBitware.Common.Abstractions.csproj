@@ -9,10 +9,11 @@
     <Description>Abstrations for commonly used .net static classes</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-    <PackageId>Sb.Common.Abstractions</PackageId>
+    <PackageId>SimpleBitware.Common.Abstractions</PackageId>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/SimpleBitware/Sb.Common</RepositoryUrl>
+    <RepositoryUrl>https://github.com/SimpleBitware/Common</RepositoryUrl>
     <MinVerTagPrefix>v</MinVerTagPrefix>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
