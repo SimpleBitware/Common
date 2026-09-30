@@ -69,14 +69,14 @@ jobs:
 
       - name: Upload Test Results
         uses: actions/upload-artifact@v7
-        if: always()
+        if: always() && hashFiles('**/TestResults/*.trx') != ''
         with:
           name: test-results
           path: '**/TestResults/*.trx'
 
       - name: Publish Test Results
         uses: dorny/test-reporter@v3
-        if: always()
+        if: always() && hashFiles('**/TestResults/*.trx') != ''
         with:
           name: Tests Results
           path: '**/TestResults/*.trx'
